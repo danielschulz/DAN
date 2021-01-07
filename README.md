@@ -1,5 +1,16 @@
 This is an official implementation of [Unfolding the Alternating Optimization for Blind Super Resolution](https://arxiv.org/abs/2010.02631)
 
+If this repo works for you, please cite our paper:
+```
+@article{huang2020unfolding,
+  title={Unfolding the Alternating Optimization for Blind Super Resolution},
+  author={Zhengxiong Luo, Yan Huang, Shang Li, Liang Wang sand Tieniu Tan},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
+  volume={33},
+  year={2020}
+}
+```
+
 This repo is build on the basis of [[MMSR]](https://github.com/open-mmlab/mmsr) and [[IKC]](https://github.com/yuanjunchai/IKC)
 
 ## Dependenices
@@ -58,5 +69,5 @@ python3 test.py -opt=test_setting1.yml
 ## Test on Real Images
 ```bash
 cd codes/config/DAN
-python3 test_single_image.py -opt=test_option.yml -input_dir=/path/to/real/images/ -output_dir=/path/to/save/sr/results/
+python3 test_single_img.py -opt=test_option.yml -input_dir=/path/to/real/images/ -output_dir=/path/to/save/sr/results/
 ```
