@@ -2,9 +2,9 @@ This is an official implementation of [Unfolding the Alternating Optimization fo
 
 If this repo works for you, please cite our paper:
 ```
-@article{huang2020unfolding,
+@article{luo2020unfolding,
   title={Unfolding the Alternating Optimization for Blind Super Resolution},
-  author={Zhengxiong Luo, Yan Huang, Shang Li, Liang Wang sand Tieniu Tan},
+  author={Luo, Zhengxiong and Huang, Yan and Li, Shang and Wang, Liang and Tan, Tieniu},
   journal={Advances in Neural Information Processing Systems (NeurIPS)},
   volume={33},
   year={2020}
